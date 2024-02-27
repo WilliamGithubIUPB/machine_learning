@@ -4,7 +4,7 @@ import os
 print(os.path.dirname(os.path.realpath(__file__)))
 this_dir = os.path.dirname(os.path.realpath(__file__))
 
-GIT_KEY=""
+GIT_KEY="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"
 
 with open(this_dir + "/repo_keys.txt") as f:
 	for line in f:
